@@ -1,0 +1,84 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-me-container{
+    padding: 100px 0px;
+    display: flex;  
+    margin-top: 20px;
+    justify-content: center;
+    background-image: url(/public/test.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form{
+    background-color: rgba(108, 108, 108, 0.387);
+    width: 45%;
+    color: white;
+    border-radius: 10px;
+}
+
+input{
+    width: 75%;
+    margin-top: 10px;
+}
+
+textarea{
+    width: 75%;
+    height: 70px;
+    margin: 10px 0px;
+}
+
+.contact-button{
+    margin-bottom: 10px;
+    color: white;
+    border: none;
+    background-color: #df5454;
+    padding: 5px 25px;
+}
+
+h2 {
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+h2:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 1px solid red;
+}
+
+
+
+i:before{
+    font-family: 'Font Awesome 6 Brands';
+    font-weight: 700;
+    font-size: 40px;
+}
+
+@media (max-width: 768px) {
+
+    .form{
+        background-color: rgba(108, 108, 108, 0.387);
+        width: 50%;
+        color: white;
+        border-radius: 10px;
+    }
+}

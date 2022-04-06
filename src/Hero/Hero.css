@@ -1,0 +1,80 @@
+.Container{
+    display: flex;
+    width: 100%;
+    border-bottom: 30px solid #191331;
+}
+
+.Left{
+    background-color: #df5454;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.PortPic{
+    max-width: 100%;
+    max-height: auto;
+}
+
+.Right{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+
+}
+
+.Right h1{
+    color: #df5454;
+    font-size: 80px;
+}
+
+.Right h2{
+    text-decoration: none;
+}
+
+.Right h2:before{
+    width: 0px;
+}
+
+.Right p{
+    padding-bottom: 20px;
+}
+
+.logo{
+    max-width: 100px;
+    max-height: 70px;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    max-width: 80%
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    .info{
+        max-width: 95%
+    }
+
+    .Container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Right h1{
+        font-size: 50px;
+    }
+
+    .logo{
+        max-width: 100px;
+    }
+}
+
+/*Tablet*/
